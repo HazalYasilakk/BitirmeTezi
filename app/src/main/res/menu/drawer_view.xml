@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/ic_alarm"
+            android:title="ALARM" />
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/ic_location"
+            android:title="GPS" />
+        <item
+            android:id="@+id/navigation_item_3"
+            android:icon="@drawable/ic_share"
+            android:title="SHARE" />
+        <item
+            android:id="@+id/navigation_item_4"
+            android:icon="@drawable/ic_featured"
+            android:title="REPOSITORY" />
+
+        <item
+            android:id="@+id/navigation_item_5"
+            android:icon="@drawable/ic_gps"
+            android:title="WHAT ARE THE ENVIRONMENT?" />
+        <item
+            android:id="@+id/navigation_item_6"
+            android:icon="@drawable/ic_filter_drama"
+            android:title="HOW'S THE WEATHER?" />
+    </group>
+</menu>
